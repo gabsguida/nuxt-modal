@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <div class="flex flex-col justify-center">
       <h1 class="font-semibold text-lg">Exemplo do componente modal-2</h1>
       <div class="pt-8">
@@ -59,7 +59,7 @@
 <script>
 import BaseModal from "@/components/modal-2/BaseModal.vue";
 import DialogConfirm from "@/components/DialogConfirm";
-import ModalService from "~/components/modal-2/service/ModalService";
+import ModalService from "@/components/modal-2/service/ModalService";
 
 export default {
   components: {
@@ -78,9 +78,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-</style>

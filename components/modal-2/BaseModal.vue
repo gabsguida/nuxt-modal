@@ -1,5 +1,5 @@
 <template>
-  <portal to="modal" :disable="!modal && modal.isVisible === false">
+  <portal to="modal2" :disable="!modal && modal.isVisible === false">
     <transition
       enter-active-class="transition ease-out duration-200"
       leave-active-class="transition ease-out duration-200"

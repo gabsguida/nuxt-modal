@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <div class="flex flex-col justify-center">
       <h1 class="font-semibold text-lg">Exemplo do componente modal-1</h1>
       <div class="pt-8">
@@ -22,6 +22,7 @@
         </button>
 
         <h2>Abrir modal que foi criada separadamente</h2>
+        <p class="font-semibold">Obs.: Esta modal possui backdrop static.</p>
         <button
           class="
             text-white
@@ -77,9 +78,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-</style>
